@@ -1,0 +1,263 @@
+#ultrapm-tabs a.nav-link {
+    cursor: pointer;
+    color: #000;
+}
+
+#ultrapm-tab-content {
+    border-top: 1px solid #ccc;
+}
+
+#ultrapm-search-header {
+    background-color: #f1f1f1;
+}
+
+button#upload-zip {
+    background-color: #ff8802 !important;
+    border-color: #ff8802 !important;
+}
+
+#ultrapm-tabs a.nav-link:hover {
+    color: #ff8802;
+}
+
+input#save-as-quick-starter-config {
+    margin-top: 7px;
+}
+
+div.most-popular-list-container > h5 {
+    padding: 8px;
+    color: #FFF;
+    font-weight: 700;
+    background-color: #ff8802;
+    font-size: 15px;
+}
+
+div.most-popular-list {
+    min-height: 200px;
+    height: 360px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.simplebar-scrollbar::before {
+    background-color: #ff8802 !important;
+}
+
+.qsa-label {
+    font-size: 14px;
+} 
+
+#item-list-view {
+    position: fixed;
+    bottom: 20px;
+    right: -700px;
+    background-color: #fff;
+    /* border-radius: 30px; */
+    border: 2px solid #ff8802;
+    height: 400px;
+    z-index: 4;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+#install-from-list {
+
+    position: absolute;
+    top: 10px;
+    left: 72px;
+
+}
+
+#clear-install-list {
+
+    position: absolute;
+    top: 10px;
+    left: 11px;
+
+}
+
+.install-list-item-name {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.install-list-item-type {
+    font-size: 13px;
+    font-style: italic;
+}
+
+#item-list-view-table {
+
+    width: 500px;
+    margin: 50px 25px 25px 25px;
+
+}
+
+#item-list-view-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #ff8802;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 6px;
+    box-shadow: 2px 2px 3px #ccc;
+    z-index: 5;
+}
+
+#item-list-view-btn > img {
+    width: 25px;
+}
+
+#item-installing-spinner {
+    display: none;
+}
+
+.tile-item-bulk-selected {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    z-index: 2;
+}
+
+#installed-plugin-bulk-actions {
+    width: 120px;
+}
+
+.ultrapm-item-tile {
+    border-radius: 18px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 12px;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ultrapm-item-tile .item-title {
+    width: 160px;
+    font-size: 15px;
+}
+
+.ultrapm-item-tile .item-version {
+    position: absolute;
+    bottom: -8px;
+    right: 12px;
+    font-weight: 700;
+}
+
+.ultrapm-item-tile .item-author {
+    color: #ff8802;
+}
+
+.ultrapm-item-tile .item-description {
+    color: #333;
+}
+
+.ultrapm-logo-lg {
+    width: 275px;
+}
+
+.theme-item-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    bottom: -80px;
+    left: -40px;
+}
+
+.item-actions {
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+}
+
+.item-action {
+    width: 20px;
+    cursor: pointer;
+}
+
+.ultrapm-item-type-icon {
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.ultrapm-item-type-icon > img {
+    width: 14px;
+}
+
+.ultrapm-item-type-icon > span {
+    top: 2px;
+    position: relative;
+}
+
+.ultrapm-modal-radio {
+    position: relative;
+    top: -8px;
+}
+
+#upload-zip-modal .form-check {
+    margin-left: 11px;
+}
+
+#start-zip-upload {
+    width: 150px;
+    margin-left: 11px;
+}
+
+.most-poular-item {
+    display: block;
+    margin: 12px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.top-10-marker {
+    width: 22px;
+    height: 22px;
+    border-radius: 22px;
+    display: inline-block;
+    text-align: center;
+    background-color: #ff8802;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.install-list-msg {
+    color: #50c878;
+    font-size: 11px;
+}
+
+#zip-process-message {
+    color: #50c878;
+    font-size: 11px;
+    top: 8px;
+    margin-left: 7px;
+    display: inline-block;
+    position: relative;
+}
+
+button[id*="info-button-"] {
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+.ultrapm-info-icon {
+    width: 15px;
+}
